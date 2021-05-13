@@ -35,10 +35,10 @@ class HomeIndex extends React.Component {
                             <li><Link to={`blog/posts/bourbon`} className="button">Bourbon</Link></li>
                             <li><Link to={`blog/posts/pils`} className="button">Pils</Link></li>
                             <li><Link to={`blog/posts/spritz`} className="button">Spritz</Link></li>
-                            <li><Link to={`blog/posts/aguadecoco`} className="button">Agua de Coco</Link></li>
+                            <li><Link to={`blog/posts/agua-de-coco`} className="button">Agua de Coco</Link></li>
                             <li><Link to={`blog/posts/rhabarberschorle`} className="button">Rhabarberschorle</Link></li>
-                            <li><Link to={`blog/posts/vodkamate`} className="button">Vodka Mate</Link></li>
-                            <li><Link to={`blog/posts/fernetcoca`} className="button">Fernet Coca</Link></li>
+                            <li><Link to={`blog/posts/vodka-mate`} className="button">Vodka Mate</Link></li>
+                            <li><Link to={`blog/posts/fernet-coca`} className="button">Fernet Coca</Link></li>
                         </ul>
                     </section>
 
