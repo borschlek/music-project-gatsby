@@ -23,7 +23,6 @@ export const query = graphql`
     posts(slug: { eq: $slug }) {
       html
       title
-      tags
       publish_date{
         startDate(formatString: "YYYY-MMM-DD", fromNow: false)
       }

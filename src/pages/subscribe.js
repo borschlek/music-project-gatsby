@@ -19,16 +19,16 @@ const Subscribe = (props) => {
 export default Subscribe
 export const query = graphql`
   query {
-    allPosts(filter: {status: {eq: "published"}, content_type: {eq: "newsletter"}} sort: { fields: [publish_date___startDate], order: DESC }) {
+    allPosts(filter: {status: {eq: "published"}, content_type: {eq: "spotify"}} sort: { fields: [publish_date___startDate], order: DESC }) {
       nodes {
         title
-        tags
         desc
         content_type
         status
         url
-        read_time
+        genres
         cover_image
+        source_link
         slug
         publish_date{
           startDate(formatString: "YYYY-MMM-DD", fromNow: false)
