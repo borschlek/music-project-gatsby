@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
+        const siteTitle = "Tuneout"
         const siteDescription = "Site description"
 
         return (
