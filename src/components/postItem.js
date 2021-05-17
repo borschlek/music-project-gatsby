@@ -4,7 +4,7 @@ import { parseImageUrl } from '@conradlin/notabase/src/utils'
 
 export default ({ data }) => {
     const { title, tags, cover_image, publish_date, desc, read_time, url, slug } = data
-    let coverimageURL = parseImageUrl(cover_image[0], 1000, slug)
+    let coverimageURL = parseImageUrl(cover_image?cover_image[0]:'', 1000, slug)
 
     return (
         <div style={{ margin: 10 }}>        
