@@ -24,7 +24,7 @@ exports.createPages = async ({ graphql, actions }) => {
             component: path.resolve(`./src/templates/blogPost.js`),
             context: {
                 // Data passed to context is available
-                // in page queries as GraphQL variables.#dasdas
+                // in page queries as GraphQL variables.#das
                 slug: slug,
             },
         });
