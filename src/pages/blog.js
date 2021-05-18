@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import PostItem from "../components/postItem"
 import Layout from '../components/layout'
-import images from '../assets'
+import images from '../src/assets/images'
 
 const Blog = (props) => {
   const { data: { allPosts } } = props
